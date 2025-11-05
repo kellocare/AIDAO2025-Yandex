@@ -1,5 +1,5 @@
 """
-for AIDAO 2025 Olymiad
+for AIDAO 2025 Olympiad
 by MOLOCHKO team: Leo (clutchdawg), Alexander (kellocare), Denis (AngelEcl)
 """
 
