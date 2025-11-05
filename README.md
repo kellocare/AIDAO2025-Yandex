@@ -28,19 +28,19 @@ pip install numpy pandas scikit-learn lightgbm joblib
 ### Быстрый запуск (с предобученной моделью):
 
 ```bash
-python implementation_MOLOCHKO.py --input frames_errors.csv --out submission.csv
+python AIDAOAgent.py --input frames_errors.csv --out submission.csv
 ```
 
 ### Обучение новой модели:
 
 ```bash
-python implementation_MOLOCHKO.py --input frames_errors.csv --out submission.csv --train
+python AIDAOAgent.py --input frames_errors.csv --out submission.csv --train
 ```
 
 ### Расширенные опции:
 
 ```bash
-python implementation_MOLOCHKO.py \
+python AIDAOAgent.py \
     --input frames_errors.csv \
     --out submission.csv \
     --teacher teacher_sample.csv \
